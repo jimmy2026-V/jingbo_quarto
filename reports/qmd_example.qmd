@@ -7,6 +7,14 @@ editor: source
 
 ```{r}
 library(tidyverse)
+library(knitr)
+
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE
+)
+Aim
 ```
 
 Aim
